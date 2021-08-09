@@ -19,6 +19,11 @@ class Calci
 			num1 = (int) d; 
 			num2 = (int) d;
 		}
+		public Calci(double)
+		{
+			num1 = r1;
+			num2 = r2
+		}
 	}
 
 public class Constructor {
