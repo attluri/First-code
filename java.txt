@@ -1,0 +1,35 @@
+class Calci
+	{
+		int num1;
+		int num2;
+		int result;
+		public Calci()
+		{
+			num1 = 5;
+			num2 = 3; 
+			System.out.println("hello"); 
+		}		
+		public Calci(int n)
+		{
+			num1=n;
+			num2=n;
+		}
+		public Calci(double d)
+		{
+			num1 = (int) d; 
+			num2 = (int) d;
+		}
+		public Calci(double t, int r)
+		{
+			num1 = (int) t;
+			num2 = r;
+		}
+	}
+
+public class Constructor {
+	public static void main(String[] args) 
+	{
+		Calci obj = new Calci(7.5, 8);
+		System.out.println(obj.num2);
+	}
+}
